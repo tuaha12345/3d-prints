@@ -1,0 +1,58 @@
+Download button pressed
+*************************** START ****************************
+Chip: ESP32C3
+Download mode: uart
+Start time: 20260702-18:12
+Connect baud: 115200
+Com:COM3
+connecting...
+manufacturer_id: 0x46
+device_id: 0x4016
+fs:0x200200
+address/file: 0 C:\My Works\3d prints\cutie\ESP8266 + ESP32 Flash Tool V3.9.10\dl_temp\bin_tmp\downloadPanel1\flash_download_tool_3.9.10.exe_rep
+Download button pressed
+*************************** START ****************************
+Chip: ESP32C3
+Download mode: uart
+Start time: 20260702-18:14
+Connect baud: 115200
+Com:COM3
+connecting...
+manufacturer_id: 0x46
+device_id: 0x4016
+fs:0x200200
+address/file: 0 C:\My Works\3d prints\cutie\ESP8266 + ESP32 Flash Tool V3.9.10\dl_temp\bin_tmp\downloadPanel1\flash_download_tool_3.9.10.exe_rep
+Erase button pressed
+Download button pressed
+Download button pressed
+*************************** START ****************************
+Chip: ESP32C3
+Download mode: uart
+Start time: 20260702-18:17
+Connect baud: 115200
+Com:COM3
+connecting...
+manufacturer_id: 0x46
+device_id: 0x4016
+fs:0x200200
+address/file: 0 C:\My Works\3d prints\cutie\ESP8266 + ESP32 Flash Tool V3.9.10\dl_temp\bin_tmp\downloadPanel1\flash_download_tool_3.9.10.exe_rep
+Erase button pressed
+*************************** START ****************************
+Chip: ESP32C3
+Download mode: uart
+Start time: 20260702-18:20
+Connect baud: 115200
+Com:COM3
+serial port open error
+Download button pressed
+*************************** START ****************************
+Chip: ESP32C3
+Download mode: uart
+Start time: 20260702-18:21
+Connect baud: 115200
+Com:COM3
+connecting...
+manufacturer_id: 0x46
+device_id: 0x4016
+fs:0x200200
+address/file: 0 C:\My Works\3d prints\cutie\ESP8266 + ESP32 Flash Tool V3.9.10\dl_temp\bin_tmp\downloadPanel1\flash_download_tool_3.9.10.exe_rep
