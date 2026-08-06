@@ -1,0 +1,4 @@
+Strandbeest Robot by nraynaud on Thingiverse: https://www.thingiverse.com/thing:2466205
+
+Summary:
+Here is my robot.The motors are "JA12-N20" 6V 100RPM (I suggest you use something a bit faster).The joints use 104 ball bearings reference 683 ZZ, a lot of M3 screws, 2 M3x150mm threaded rods, and 4 M3x28mm threaded rods with a 1mm flat lengthwise.For spacers around the bearings, I used a ton of YA-0390BK you might want to find something cheaper.Youtube videosReddit threadThe Fusion 360 model is just a shame, so I am not sharing it :)Fusion360 assemblyBroken OnShape assemblyInspiratorThis project is over for me, but I would really be happy that you reported any modifications you make so that I can get some more engineering knowledge from it.
