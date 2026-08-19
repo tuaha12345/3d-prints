@@ -1,0 +1,102 @@
+#include <Servo.h>
+
+// Create two Servo objects
+Servo servo1;
+Servo servo2;
+Servo servo3;
+Servo servo4;
+Servo foot1;
+Servo foot2;
+
+// Set the pins where the servos are connected
+const int servoPin1 = 5;
+const int servoPin2 = 6;
+const int servoPin3 = 7;
+const int servoPin4 = 8;
+const int servoPin5 = 9;
+const int servoPin6 = 10;
+int time=30
+;
+int ftime=30;
+void setup() {
+  // Attach the servos to the defined pins
+  servo1.attach(servoPin1);
+  servo2.attach(servoPin2);
+  servo3.attach(servoPin3);
+  servo4.attach(servoPin4);
+  foot1.attach(servoPin5);
+  foot2.attach(servoPin6);
+
+  // Initialize both servos to 90 degrees (neutral position)
+  servo1.write(90);
+  servo2.write(90);
+  servo3.write(90);
+  servo4.write(90);
+  foot1.write(90);
+  foot2.write(90);
+  
+  delay(2000); // Allow some time for servos to reach position
+}
+
+void loop() {
+
+
+  // feet **** left
+  for(int f=100;f>=80;f--)
+  {
+    foot1.write(f);
+    foot2.write(f);
+    delay(ftime);
+  }
+
+
+
+    
+   // --
+  for(int r=100;r>=80;r--)
+  {
+    servo3.write(r);
+    servo4.write(r);
+    servo1.write(r);
+    servo2.write(r);
+    
+    delay(time);
+  }
+
+// feet **** right
+    for(int f=80;f<=100;f++)
+  {
+    foot2.write(f);
+    foot1.write(f);
+    delay(ftime);
+  }
+    
+  //  
+    for(int r=80;r<=100;r++)
+  {
+        servo3.write(r);
+    servo4.write(r);
+    servo1.write(r);
+    servo2.write(r);
+   
+    delay(time);
+  }
+
+  // feet **** level
+  // for(int f=100;f>=90;f--)
+  // {
+  //   foot1.write(f);
+  //   foot2.write(f);
+  //   delay(ftime);
+  // }
+
+
+
+  }
+
+
+
+
+
+
+
